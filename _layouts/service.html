@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{% include page_header.html %}
+<section class="blog-default section-ptb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <article>
+          {% if page.post_image %}
+          <div class="image">
+             <img src="{{page.post_image}}" alt="{{page.title}}" class="feature img-fluid"/>
+          </div>
+          {% endif %}
+          <div class="content">
+            {{page.content}}
+          </div>
+        </article>
+      </div>
+      <!-- Sidebar -->
+      <div class="col-lg-4">
+       <div class="sidebar">
+         {% include sidebar.html %}
+       </div>
+      </div>
+    </div>
+  </div>
+</section>

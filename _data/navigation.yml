@@ -1,0 +1,50 @@
+#Please use the main menu items under the "text"
+ - text: Home
+   url: /
+   submenu:
+   - text: Home One
+     url: /
+   - text: Home Two
+     url: index-2
+   - text: Home Three
+     url: index-3
+   - text: Home Four
+     url: index-4
+ - text: About
+   url: /about 
+   submenu:
+   - text: About us
+     url: /about
+   - text: About me
+     url: /about-me
+ - text: Services
+   url: /services
+ - text: Portfolios
+   url: /portfolios
+   submenu:
+   - text: Portfolio One
+     url: /portfolio
+   - text: Portfolio Two
+     url: /portfolio-2
+   - text: Portfolio Three
+     url: /portfolio-3
+   - text: Portfolio Four
+     url: /portfolio-4
+   - text: Portfolio Five
+     url: /portfolio-5
+ - text: Blog
+   url: /blog
+   submenu:
+   - text: Default Blog
+     url: /blog
+   - text: Grid Blog
+     url: /grid-blog
+   - text: Blog Details
+     url: /blog-details
+ - text: Contact
+   url: /contact 
+   submenu: 
+   - text: Contact One
+     url: /contact
+   - text: Contact Two
+     url: /contact-2
