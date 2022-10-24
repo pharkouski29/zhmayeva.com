@@ -17,7 +17,7 @@ header_image: "assets/images/banner_08.jpg"
         <article>
           {% if post.post_image %}
           <div class="image">
-             <a href="{{post.url| relative_url}}"><img src="{{post.post_image}}" alt="{{post.title}}" class="feature img-fluid"/></a>
+             <a href="{{post.url| relative_url}}"><img src="{{post.post_image| relative_url}}" alt="{{post.title}}" class="feature img-fluid"/></a>
           </div>
           {% endif %}
           <div class="content">

@@ -60,7 +60,7 @@
             <li><h6 class="border-bottom py-2 text-capitalize">{{ post.date | date: '%B , %Y' }}</h6></li>
           {% endif %}
         {% endunless %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        <li><a href="{{ post.url| relative_url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
   </div>
