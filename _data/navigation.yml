@@ -11,12 +11,12 @@
    - text: Home Four
      url: index-4
  - text: About
-   url: /about 
+   url: about 
    submenu:
    - text: About us
-     url: /about
+     url: about
    - text: About me
-     url: /about-me
+     url: about-me
  - text: Services
    url: /services
  - text: Portfolios
