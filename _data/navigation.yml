@@ -1,9 +1,9 @@
 #Please use the main menu items under the "text"
  - text: Home
-   url: "{{'/'| relative_url}}"
+   url: /
    submenu:
    - text: Home One
-     url: "{{'index'| relative_url}}"
+     url: index
    - text: Home Two
      url: index-2
    - text: Home Three
