@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{% include hero_area.html %}
+{% include "{{'/services.html ' | relative_url}}"%}
+
 {% include skills.html extra_class="section-ptb" %}
 {% include services.html %}
 {% include teams.html extra_class="section-ptb" %}
