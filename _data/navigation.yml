@@ -3,7 +3,7 @@
    url: /
    submenu:
    - text: Home One
-     url: /
+     url: index
    - text: Home Two
      url: index-2
    - text: Home Three
@@ -18,33 +18,33 @@
    - text: About me
      url: about-me
  - text: Services
-   url: /services
+   url: services
  - text: Portfolios
-   url: /portfolios
+   url: portfolios
    submenu:
    - text: Portfolio One
-     url: /portfolio
+     url: portfolio
    - text: Portfolio Two
-     url: /portfolio-2
+     url: portfolio-2
    - text: Portfolio Three
-     url: /portfolio-3
+     url: portfolio-3
    - text: Portfolio Four
-     url: /portfolio-4
+     url: portfolio-4
    - text: Portfolio Five
-     url: /portfolio-5
+     url: portfolio-5
  - text: Blog
-   url: /blog
+   url: blog
    submenu:
    - text: Default Blog
-     url: /blog
+     url: blog
    - text: Grid Blog
-     url: /grid-blog
+     url: grid-blog
    - text: Blog Details
-     url: /blog-details
+     url: blog-details
  - text: Contact
-   url: /contact 
+   url: contact 
    submenu: 
    - text: Contact One
-     url: /contact
+     url: contact
    - text: Contact Two
-     url: /contact-2
+     url: contact-2
