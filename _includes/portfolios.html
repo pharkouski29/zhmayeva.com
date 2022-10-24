@@ -13,9 +13,9 @@
         {% endif %}
         <div class="overlay">
           <div class="social">
-            <h3><a href="{{portfolio.url}}">{{portfolio.title}}</a></h3>
+            <h3><a href="{{portfolio.url| relative_url}}">{{portfolio.title}}</a></h3>
             <p>{{portfolio.excerpt | strip_html | truncate: 200}}</p>
-            <h6><a href="{{portfolio.url}}">View Details</a></h6>
+            <h6><a href="{{portfolio.url| relative_url}}">View Details</a></h6>
           </div>
         </div>
       </div>
