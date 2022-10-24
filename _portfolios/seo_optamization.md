@@ -2,8 +2,10 @@
 title: "SEO Optamization"
 sub_title: "Search Engine Optamize"
 layout: portfolio
+
 post_image: "{{ site.url }}assets/images/portfolio6.jpg"
 header_image: "{{ site.url }}/assets/images/banner_14.jpg"
+
 tags: "WordPress"
 ---
 
