@@ -1,11 +1,11 @@
 #Please use the main menu items under the "text"
  - text: Home
-   url: {{'/'| relative_url}}
+   url: {{relative_url}}
    submenu:
    - text: Home One
-     url: {{'/index'| relative_url}}
+     url: index
    - text: Home Two
-     url: {{'/index-2'| relative_url}}
+     url: index-2
    - text: Home Three
      url: index-3
    - text: Home Four
