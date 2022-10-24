@@ -9,7 +9,7 @@
           {% endif %}
           <h4>{{service.title}}</h4>
           <p>{{service.excerpt | strip_html | truncate: 130}}</p>
-          <a href="{{service.url}}" class="btn dark">Read More</a>
+          <a href="{{service.url| relative_ur}}" class="btn dark">Read More</a>
         </div>
       </div>
       {% endfor %}
