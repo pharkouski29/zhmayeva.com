@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Our Jekyll Premium Blog Posting"
 date:   2020-05-02 09:16:35 +0600
 categories: [jekyll]
-post_image: "{{'/assets/images/blog/05.jpg' | relative_url}}"
+post_image: assets/images/blog/05.jpg
 author: Tortoiz
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
