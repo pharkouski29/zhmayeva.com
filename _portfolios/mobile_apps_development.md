@@ -2,8 +2,8 @@
 title: "Mobile Apps Development"
 sub_title: "Mobile Apps"
 layout: portfolio
-post_image: "/assets/images/portfolio3.jpg"
-header_image: "/assets/images/banner_14.jpg"
+post_image: "assets/images/portfolio3.jpg"
+header_image: "assets/images/banner_14.jpg"
 tags: "WordPress HTML"
 ---
 
@@ -16,7 +16,7 @@ tags: "WordPress HTML"
   </div>
   <div class="row">
     <div class="col-lg-6 col-sm-6 items">
-      <img src="/assets/images/portfolio1.jpg" class="image img-fluid" alt="portfolio"/>
+      <img src="assets/images/portfolio1.jpg" class="image img-fluid" alt="portfolio"/>
     </div>
     <div class="col-lg-6 col-sm-6 items content">
       <h3><a href="#">Responsive Website</a></h3>
@@ -71,12 +71,12 @@ tags: "WordPress HTML"
       </table>
     </div>
     <div class="col-lg-6 col-sm-6 items">
-      <img src="/assets/images/portfolio2.jpg" class="image img-fluid" alt="portfolio"/>
+      <img src="assets/images/portfolio2.jpg" class="image img-fluid" alt="portfolio"/>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-6 col-sm-6 items">
-      <img src="/assets/images/portfolio3.jpg" class="image img-fluid" alt="portfolio"/>
+      <img src="assets/images/portfolio3.jpg" class="image img-fluid" alt="portfolio"/>
     </div>
     <div class="col-lg-6 col-sm-6 items content">
       <h3><a href="#">Responsive Website</a></h3>
@@ -131,7 +131,7 @@ tags: "WordPress HTML"
       </table>
     </div>
     <div class="col-lg-6 col-sm-6 items">
-      <img src="/assets/images/portfolio4.jpg" class="image img-fluid" alt="portfolio"/>
+      <img src="assets/images/portfolio4.jpg" class="image img-fluid" alt="portfolio"/>
     </div>
   </div>
 </div>

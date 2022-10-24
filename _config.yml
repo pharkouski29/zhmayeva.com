@@ -14,7 +14,7 @@ github_username:  jekyll
 permalink: "/:title"
 
 # General Settings
-banner_image: "/assets/images/banner.jpg"
+banner_image: "assets/images/banner.jpg"
 
 environment: "development"
 
@@ -26,7 +26,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives
 
-cover_image: "/assets/img/bg/page-title.jpg"
+cover_image: "assets/img/bg/page-title.jpg"
 
 
 #collections

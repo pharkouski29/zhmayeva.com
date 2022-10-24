@@ -5,7 +5,7 @@ date: 2019-03-10 20:37:13 +0600
 tags: wordpress hosting
 categories: [wordpress]
 author: Tortoiz
-post_image: "/assets/images/blog/06.jpg"
+post_image: "assets/images/blog/06.jpg"
 ---
 
 <p>Must explain to you how all this mistaken idea of denouncing pleasure and praising pain
