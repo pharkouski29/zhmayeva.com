@@ -5,7 +5,7 @@ date: 2019-02-09 20:37:13 +0600
 tags: technology education
 categories: [tech]
 author: Tortoiz
-post_image: "assets/images/blog/04.jpg"
+post_image: "{{'/assets/images/blog/04.jpg' | relative_url}}"
 ---
 
 <b>augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium<b>

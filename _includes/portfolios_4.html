@@ -22,7 +22,7 @@
       <div class="col-lg-4 col-sm-6 custom-mb-4 image-filter {{portfolio.tags}}">
         <div class="portfolio-item">
           {% if portfolio.post_image %}
-           <a href="{{portfolio.url| relative_url}}"><img src="{{portfolio.post_image}}" alt="{{portfolio.title}}" class="img-fluid"/></a>
+           <a href="{{portfolio.url| relative_url}}"><img src="{{portfolio.post_image| relative_url}}" alt="{{portfolio.title}}" class="img-fluid"/></a>
           {% endif %}
           <div class="info">
             <h3><a href="{{portfolio.url| relative_url}}">{{portfolio.title}}</a></h3>

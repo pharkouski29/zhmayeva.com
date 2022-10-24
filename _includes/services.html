@@ -5,7 +5,7 @@
       <div class="col-lg-4 col-md-6 custom-mb-4">
         <div class="item wow animated fadeInUp" data-wow-delay="0.2s">
           {% if service.icon %}
-           <img src="{{service.icon}}" class="img-fluid" alt="feature"/>
+           <img src="{{service.icon| relative_url}}" class="img-fluid" alt="feature"/>
           {% endif %}
           <h4>{{service.title}}</h4>
           <p>{{service.excerpt | strip_html | truncate: 130}}</p>

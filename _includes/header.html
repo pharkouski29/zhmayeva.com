@@ -12,22 +12,22 @@
          {% for menu in site.data.navigation %}
             {% if menu.submenu %}
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="{{index.html| relative_url}}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   {{menu.text}}
                 </a>
                 <div class="dropdown-menu">
                   {% for submenu_item in menu.submenu %}
                   {% if forloop.last %}
-                   <a class="dropdown-item" href="{{submenu_item.url}}">{{submenu_item.text}}</a>
+                   <a class="dropdown-item" href="{{submenu_item.url| relative_url}}">{{submenu_item.text}}</a>
                    {% else %}
-                   <a class="dropdown-item" href="{{submenu_item.url}}">{{submenu_item.text}}</a>
+                   <a class="dropdown-item" href="{{submenu_item.url| relative_url}}">{{submenu_item.text}}</a>
                    <div class="dropdown-divider"></div>
                   {% endif %}
                   {% endfor %}
                 </div>
               </li>
               {% else %}
-              <li class="nav-item"><a title="{{menu.text}}" href="{{menu.url}}" class="nav-link">{{menu.text}}</a></li>
+              <li class="nav-item"><a title="{{menu.text}}" href="{{menu.url| relative_url}}" class="nav-link">{{menu.text}}</a></li>
             {% endif %}
          {% endfor %}
       </ul>

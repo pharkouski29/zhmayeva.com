@@ -10,7 +10,7 @@
       <div class="col-lg-4 col-sm-6 image-filter custom-mb-4 {{portfolio.tags}}">
         <div class="portfolio-item wow animated fadeInUp" data-wow-delay="0.2s">
           {% if portfolio.post_image %}
-            <a href="{{portfolio.url| relative_url}}"><img src="{{portfolio.post_image}}" alt="{{portfolio.title}}" class="img-fluid"/></a>
+            <a href="{{portfolio.url| relative_url}}"><img src="{{portfolio.post_image| relative_url}}" alt="{{portfolio.title}}" class="img-fluid"/></a>
           {% endif %}
           <div class="info">
             <h3><a href="{{portfolio.url| relative_url}}">{{portfolio.title}}</a></h3>

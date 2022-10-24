@@ -21,7 +21,7 @@
       {% for portfolio in site.portfolios %}
       <div class="col-lg-4 col-md-6 items image-filter {{portfolio.tags}}">
         {% if portfolio.post_image %}
-         <img src="{{portfolio.post_image}}" class="image img-fluid" alt="{{portfolio.title}}"/>
+         <img src="{{portfolio.post_image| relative_url}}" class="image img-fluid" alt="{{portfolio.title}}"/>
         {% endif %}
         <div class="overlay">
           <div class="social">

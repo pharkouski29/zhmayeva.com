@@ -3,8 +3,8 @@ title: "SEO Optamization"
 sub_title: "Search Engine Optamize"
 layout: portfolio
 
-post_image: "{{ site.url }}assets/images/portfolio6.jpg"
-header_image: "{{ site.url }}/assets/images/banner_14.jpg"
+post_image: "assets/images/portfolio6.jpg"
+header_image: "assets/images/banner_14.jpg"
 
 tags: "WordPress"
 ---
@@ -18,7 +18,7 @@ tags: "WordPress"
   </div>
   <div class="row">
     <div class="col-lg-6 col-sm-6 items">
-      <img src="assets/images/portfolio1.jpg" class="image img-fluid" alt="portfolio"/>
+      <img src="{{'/assets/images/portfolio1.jpg' | relative_url}}" class="image img-fluid" alt="portfolio"/>
     </div>
     <div class="col-lg-6 col-sm-6 items content">
       <h3><a href="#">Responsive Website</a></h3>
@@ -73,12 +73,12 @@ tags: "WordPress"
       </table>
     </div>
     <div class="col-lg-6 col-sm-6 items">
-      <img src="assets/images/portfolio2.jpg" class="image img-fluid" alt="portfolio"/>
+      <img src="{{'/assets/images/portfolio2.jpg' | relative_url}}" class="image img-fluid" alt="portfolio"/>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-6 col-sm-6 items">
-      <img src="assets/images/portfolio3.jpg" class="image img-fluid" alt="portfolio"/>
+      <img src="{{'/assets/images/portfolio3.jpg' | relative_url}}" class="image img-fluid" alt="portfolio"/>
     </div>
     <div class="col-lg-6 col-sm-6 items content">
       <h3><a href="#">Responsive Website</a></h3>
@@ -133,7 +133,7 @@ tags: "WordPress"
       </table>
     </div>
     <div class="col-lg-6 col-sm-6 items">
-      <img src="assets/images/portfolio4.jpg" class="image img-fluid" alt="portfolio"/>
+      <img src="{{'/assets/images/portfolio4.jpg' | relative_url}}" class="image img-fluid" alt="portfolio"/>
     </div>
   </div>
 </div>

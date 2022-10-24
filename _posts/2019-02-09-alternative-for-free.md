@@ -5,7 +5,7 @@ date: 2019-02-09 20:37:13 +0600
 tags: technology education
 categories: [tech]
 author: Tortoiz
-post_image: "assets/images/blog/02.jpg"
+post_image: "{{'/assets/images/blog/02.jpg' | relative_url}}"
 ---
 
 <h4>Alternative Free Way To Be A Prodessional Designer </h4>
