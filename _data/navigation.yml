@@ -39,8 +39,6 @@
      url: blog
    - text: Grid Blog
      url: grid-blog
-   - text: Blog Details
-     url: blog-details
  - text: Contact
    url: contact 
    submenu: 
