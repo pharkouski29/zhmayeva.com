@@ -67,10 +67,13 @@
     }
 
     if($("#results-container").length > 0) {
+          var urlPart = location.href.replace(location.origin, '');
+          var urlParts = urlPart.split('/');
+          urlPart = (urlParts.length > 2) ? urlParts[1] + '/' : '/';
           var sjs = SimpleJekyllSearch({
           searchInput: document.getElementById('search-input'),
           resultsContainer: document.getElementById('results-container'),
-          json: '/search.json'
+          json: '/' + urlPart + 'search.json'
         });
       }
 
