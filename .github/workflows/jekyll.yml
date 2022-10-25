@@ -16,23 +16,38 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-            
-      - name: Build Jekyll for GitHub Pages
-        uses: actions/jekyll-build-pages@v1.0.5
+      
+      - name: Jekyll Actions
+        # You may pin to the exact commit or the version.
+        # uses: helaili/jekyll-action@8ca4e612c21f4f90be9e1c9001a0a07b638e2d96
+        uses: helaili/jekyll-action@2.4.0
         with:
-          # Directory where the source files reside.
-          source: ./
-          # Output directory of the build. Although it can be nested inside the source, it cannot be the same as the source directory.
-          destination: ./_site
-          # Publishes posts with a future date. When set to true, the build is made with the --future option which overrides the future option that may be set in a Jekyll configuration file.
-          future: true
-          # The SHA-1 of the git commit for which the build is running. Default to GITHUB_SHA.
-          build_revision:  ${{ github.sha }}
-          # Verbose output
-          verbose: true
-          # GitHub token
+          # The GITHUB_TOKEN secret
           token: ${{ github.token }}
+          # The Jekyll environment to build
+          jekyll_env: development
+          # The Jekyll website source directory
+          jekyll_src: ./
+           # The Jekyll Gemfile directory
+          gem_src: ./
+          # The target branch name the site gets pushed to
+          target_branch: gh-pages
+          # Additional Jekyll build arguments (see https://jekyllrb.com/docs/configuration/options/#build-command-options)
+          # jekyll_build_options: # optional
+          # The relative path where the site gets pushed to
+          #target_path: # optional
+          # Will build the Jekyll site without publishing it
+          #build_only: # optional
+          # The directory to build your project in
+          #build_dir: # optional
+          # Do not overwrite whatever was already published on the target branch
+          keep_history: false
+          # Commands to run prior to build and deploy. Useful for ensuring build dependencies are up to date or installing  new dependencies. For example, use `apk --update add  imagemagick` to install ImageMagick.
+          #pre_build_commands: # optional
+          # When set override the default bundler version provided.
+          #bundler_version: # optional
+      
       - name: jekyll-deploy-gh-pages
-  # You may pin to the exact commit or the version.
-  # uses: BryanSchuetz/jekyll-deploy-gh-pages@c65ae23c7f03c25370004f16cba53110df1a4da4
+        # You may pin to the exact commit or the version.
+        # uses: BryanSchuetz/jekyll-deploy-gh-pages@c65ae23c7f03c25370004f16cba53110df1a4da4
         uses: BryanSchuetz/jekyll-deploy-gh-pages@v2.0
