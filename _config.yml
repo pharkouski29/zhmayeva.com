@@ -24,9 +24,9 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
+  - jekyll/tagging
 
 cover_image: "assets/img/bg/page-title.jpg"
-
 
 #collections
 collections:
@@ -46,7 +46,7 @@ pagination:
   enabled: true
 
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination page
-  debug: false
+  debug: true
 
   # The default document collection to paginate if nothing is specified ('posts' is default)
   collection: 'posts'
