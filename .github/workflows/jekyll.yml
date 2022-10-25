@@ -47,7 +47,3 @@ jobs:
           # When set override the default bundler version provided.
           #bundler_version: # optional
       
-      - name: jekyll-deploy-gh-pages
-        # You may pin to the exact commit or the version.
-        # uses: BryanSchuetz/jekyll-deploy-gh-pages@c65ae23c7f03c25370004f16cba53110df1a4da4
-        uses: BryanSchuetz/jekyll-deploy-gh-pages@v2.0
