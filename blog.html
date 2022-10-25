@@ -1,10 +1,8 @@
 ---
 layout: default
-header_image: "assets/images/banner_07.jpg"
-pagination:
-  enabled: true
 title: "Blog"
-permalink: "/blog"
+header_image: "assets/images/banner_07.jpg"
+
 ---
 
 {% include page_header.html %}
@@ -30,7 +28,7 @@ permalink: "/blog"
                                 </div>
                                 {% endif %}
                                 <div class="col">
-                                    <span class="comment float-right"><i class="lni lni-bubble"></i> <a href="{{post.url | relative_url}}#disqus_thread" data-disqus-identifier="{{post.url}}"> 0 Comment</a></span>
+                                    <span class="comment float-right"><i class="lni lni-bubble"></i> <a href="{{post.url | relative_url}}#disqus_thread" data-disqus-identifier="{{post.url | relative_url}}"> 0 Comment</a></span>
                                 </div>
                             </div>
                             <h3><a href="{{post.url| relative_url}}">{{post.title}}</a></h3>
