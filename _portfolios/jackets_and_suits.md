@@ -1,10 +1,30 @@
 ---
-title: "Responsive Website"
-sub_title: "Responsive Web Design"
+title: "Жакеты и костюмы"
+date: 05.05.2022
+price: "от 19тыс."
 layout: portfolio
-post_image: "assets/images/portfolio1.jpg"
-header_image: "assets/images/banner_11.jpg"
-tags: "Jekyll HTML"
+post_image: "assets/images/zhmayeva/zhmayeva_poshiv_kostyumov.jpg"
+header_image: "assets/images/banner_14.jpg"
+address: jackets_and_suits
+tags: "Жакеты и костюмы"
+texts: "Диапазон цен пошива без учёта стоимости ткани:
+</br>
+</br>
+Жакет летний без подкладки от 26 тыс.
+</br>
+Классический жакет на подкладке от 28 тыс.
+</br>
+Жакет в стиле Chanel от 25 тыс.
+</br>
+Жилет от 19 тыс.
+</br>
+Женский костюм классический (жакет + юбка-карандаш) от 43 тыс.
+</br>
+Женский костюм классический (жакет + брюки) от 46 тыс.
+</br>
+</br>
+Для конкретного расчёта стоимости пошива изделия,
+присылайте нам фото"
 ---
 
 <section class="spotlight-portfolio portfolio2">

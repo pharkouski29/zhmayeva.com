@@ -1,10 +1,26 @@
 ---
-title: "Graphic Design"
-sub_title: "Professional Graphic Designer"
+title: "Пошив верхней одежды"
+date: 04.04.2022
+price: "от 30тыс."
 layout: portfolio
-post_image: "assets/images/portfolio4.jpg"
-header_image: "assets/images/banner_13.jpg"
-tags: "HTML"
+post_image: "assets/images/zhmayeva/zhmayeva_poshiv_verhnej_odezhdy.jpg"
+header_image: "assets/images/banner_12.jpg"
+address: tailoring_of_outerwear
+tags: "Пошив верхней одежды"
+texts: "Диапазон цен пошива без учёта стоимости ткани:
+</br>
+</br>
+Тренч от 32 тыс.
+</br>
+Пальто (длина до линии бедра) от 30 тыс.
+</br>
+Пальто (длина до колена и ниже) от 35 тыс.
+</br>
+Пальто утеплённое (длина до колена и ниже) от 40 тыс.
+</br>
+</br>
+Для конкретного расчёта стоимости пошива изделия,
+присылайте нам фото"
 ---
 
 <section class="spotlight-portfolio portfolio2">
@@ -16,7 +32,7 @@ tags: "HTML"
   </div>
   <div class="row">
     <div class="col-lg-6 col-sm-6 items">
-      <img src="{{'/assets/images/portfolio1.jpg' | relative_url}}"  class="image img-fluid" alt="portfolio"/>
+      <img src="{{'/assets/images/portfolio1.jpg' | relative_url}}" class="image img-fluid" alt="portfolio"/>
     </div>
     <div class="col-lg-6 col-sm-6 items content">
       <h3><a href="#">Responsive Website</a></h3>
@@ -131,7 +147,7 @@ tags: "HTML"
       </table>
     </div>
     <div class="col-lg-6 col-sm-6 items">
-      <img src="{{'/assets/images/portfolio4.jpg' | relative_url}}" class="image img-fluid" alt="portfolio"/>
+      <img src="{{'/assets/images/portfolio4.jpg' | relative_url}}"  class="image img-fluid" alt="portfolio"/>
     </div>
   </div>
 </div>

@@ -24,9 +24,6 @@ layout: default
                 <span class="date"><i class="lni lni-calendar"></i> {{page.date | date_to_long_string}}</span>
               </div>
               {% endif %}
-              <div class="col">
-                <span class="comment float-right"><i class="lni lni-bubble"></i> <a href="{{post.url| relative_url}}#disqus_thread" data-disqus-identifier="{{post.url}}"> 0 Comment</a></span>
-              </div>
             </div>
             {{page.content}}
           </div>
@@ -47,7 +44,7 @@ layout: default
           </div>
         </div>
         <div class="comment_wrapper">
-          <h3>Comments</h3>
+          <h3>Комментарии</h3>
           {% include disqus_comments.html %}
         </div>
       </div>

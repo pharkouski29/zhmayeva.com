@@ -1,17 +1,45 @@
 ---
-title: "Mobile Apps Development"
-sub_title: "Mobile Apps"
+title: "Юбки"
+date: 03.03.2022
+price: "от 10тыс."
 layout: portfolio
-post_image: "assets/images/portfolio3.jpg"
+post_image: "assets/images/zhmayeva/zhmayeva_poshiv_yubok.jpg"
 header_image: "assets/images/banner_14.jpg"
-tags: "WordPress HTML"
+address: skirts
+tags: "Юбки"
+texts: "Диапазон цен пошива без учёта стоимости ткани:
+</br>
+</br>
+Юбка-солнце от 13 тыс.
+</br>
+Юбка-полусолнце / четверть солнца от 10 тыс.
+</br>
+Юбка по косой без подкладки от 10 тыс.
+</br>
+Юбка-трапеция от 13 тыс.
+</br>
+Юбка-карандаш от 13 тыс.
+</br>
+Юбка в складку без подкладки от 13 тыс.
+</br>
+Юбка в складку на подкладке от 15 тыс.
+</br>
+Юбка-годе с клиньями миди от 18 тыс.
+</br>
+Юбка-пачка из фатина от 20 тыс.
+</br>
+Юбка с воланами / многоярусная от 25 тыс.
+</br>
+</br>
+Для конкретного расчёта стоимости пошива изделия,
+присылайте нам фото"
 ---
 
 <section class="spotlight-portfolio portfolio2">
 <div class="container">
   <div class="row">
     <div class="col-lg-12 text-center">
-      <h2 class="title">{{page.title}}</h2>
+        <h2 class="title">{{page.title}}</h2>
     </div>
   </div>
   <div class="row">

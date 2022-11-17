@@ -1,14 +1,12 @@
+<a id="pramuimge-logo" title="{{site.title}}" href="{{site.url}}{{site.baseurl}}/"><img src="{{'/assets/images/zhmayeva/zhmayeva_atelier_website_top.svg' | relative_url}}" style="max-width: 400px; width: 400px;" class="my-4 rounded mx-auto d-block" alt="{{site.title}}"/></a>
 <div class="main-menu">
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-  <div class="container">
-    <div class="navbar-brand">
-      <a id="pramuimge-logo" title="{{site.title}}" href="{{site.url}}{{site.baseurl}}/"><img src="{{'/assets/images/logo_white.png' | relative_url}}" alt="{{site.title}}"/></a>
-    </div>
-    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#main-nav-1" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
+  <nav class="navbar navbar-expand-md navbar-white bg-white border-top border-bottom">
+    <div class="container">
+      <button class="navbar-toggler collapsed navbar-light bg-white" type="button" data-toggle="collapse" data-target="#main-nav-1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
     <div class="navbar-collapse collapse" id="main-nav-1">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav mx-auto">
          {% for menu in site.data.navigation %}
             {% if menu.submenu %}
               <li class="nav-item dropdown">
@@ -17,12 +15,12 @@
                 </a>
                 <div class="dropdown-menu">
                   {% for submenu_item in menu.submenu %}
-                  {% if forloop.last %}
-                   <a class="dropdown-item" href="{{submenu_item.url| relative_url}}">{{submenu_item.text}}</a>
-                   {% else %}
-                   <a class="dropdown-item" href="{{submenu_item.url| relative_url}}">{{submenu_item.text}}</a>
-                   <div class="dropdown-divider"></div>
-                  {% endif %}
+                    {% if forloop.last %}
+                      <a class="dropdown-item" href="{{submenu_item.url| relative_url}}">{{submenu_item.text}}</a>
+                    {% else %}
+                      <a class="dropdown-item" href="{{submenu_item.url| relative_url}}">{{submenu_item.text}}</a>
+                      <div class="dropdown-divider"></div>
+                    {% endif %}
                   {% endfor %}
                 </div>
               </li>

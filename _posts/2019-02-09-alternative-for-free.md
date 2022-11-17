@@ -3,7 +3,7 @@ layout: post
 title: "Alternative Free Way To Be A Prodessional Designer"
 date: 2019-02-09 20:37:13 +0600
 tags: technology education
-categories: [tech]
+categories: [Юбки]
 author: Tortoiz
 post_image: "assets/images/blog/02.jpg"
 ---

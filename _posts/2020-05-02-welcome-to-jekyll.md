@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Our Jekyll Premium Blog Posting"
 date:   2020-05-02 09:16:35 +0600
-categories: [jekyll]
+categories: [Глазковая петля, Жакеты]
 post_image: assets/images/blog/05.jpg
 author: Tortoiz
 ---

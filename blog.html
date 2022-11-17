@@ -1,15 +1,15 @@
 ---
 layout: default
 header_image: "assets/images/banner_07.jpg"
-title: "Blog"
+title: "Блог"
 permalink: "/blog"
 pagination:
   enabled: true
-  per_page: 6
+  per_page: 4
   collection: posts
 ---
 
-{% include page_header.html %}
+{% include page_header_blog.html %}
 
 <div class="blog-default section-ptb">
     <div class="container">
@@ -30,14 +30,11 @@ pagination:
                                 <div class="col">
                                     <span class="date"><i class="lni lni-calendar"></i> {{post.date | date_to_long_string}}</span>
                                 </div>
-                                {% endif %}
-                                <div class="col">
-                                    <span class="comment float-right"><i class="lni lni-bubble"></i> <a href="{{post.url}}#disqus_thread" data-disqus-identifier="{{post.url}}"> 0 Comment</a></span>
-                                </div>
+                                {% endif %}                                
                             </div>
                             <h3><a href="{{post.url| relative_url}}">{{post.title}}</a></h3>
                             <p>{{post.excerpt | strip_html | truncatewords: "30"}}</p>
-                            <a href="{{post.url| relative_url}}" class="btn dark">Read More</a>
+                            <a href="{{post.url| relative_url}}" class="btn dark">Читать далее...</a>
                         </div>
                     </article>
                     {% endfor %}

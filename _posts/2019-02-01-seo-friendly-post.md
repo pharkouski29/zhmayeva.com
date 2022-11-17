@@ -3,7 +3,7 @@ layout: post
 title: "Seo Friendly Post Title venenatis a condimentum vitae"
 date: 2019-02-01 20:37:13 +0600
 tags: technology education
-categories: [health]
+categories: [Платья]
 author: "ecuelass chapman"
 post_image: assets/images/blog/01.jpg
 ---
